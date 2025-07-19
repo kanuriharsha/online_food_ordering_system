@@ -11,7 +11,7 @@ const SERVER_PORT = 5050;
 
 MongoClient.connect(MONGO_URI, { useUnifiedTopology: true })
   .then((client) => {
-    console.log("✅ MongoDB connected");
+    console.log("✅ MongoDB conne cted");
 
     const db = client.db("food");
     const collection = db.collection("food");
