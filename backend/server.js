@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI = 'mongodb+srv://harshavardhankanuri2005:Ammananna2005@cluster0.mzrbfk6.mongodb.net/food?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongokey';
 const SERVER_PORT = 5050;
 
 MongoClient.connect(MONGO_URI, { useUnifiedTopology: true })
